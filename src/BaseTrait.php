@@ -20,12 +20,12 @@ trait BaseTrait
 
     public function setModel($model)
     {
-        if(is_string($model) && class_exists('DV\Mvc\Service\ServiceLocatorFactory'))	{
-            $model = \DV\Mvc\Service\ServiceLocatorFactory::getLocator($model) ;
+        if(is_string($model) && class_exists('DV\ContainerService\ServiceLocatorFactory'))	{
+            $model = \DV\ContainerService\ServiceLocatorFactory::getLocator($model) ;
             ##
-            if(! $model instanceof BaseAbstract)	{
+            /*if(! $model instanceof BaseAbstract)	{
                 throw new \Exception('An instance of model object required.') ;
-            }
+            }*/
         }
 
         $this->model = $model ;

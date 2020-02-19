@@ -12,7 +12,7 @@ trait TraitContainer
      */
     protected $container ;
 
-    public function setContainer(ContainerInterface $container) : void
+    public function setContainer(ContainerInterface $container) : ?ContainerInterface
     {
         $this->container = $container ;
     }
