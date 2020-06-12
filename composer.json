@@ -1,0 +1,33 @@
+{
+    "name": "darviews/micro-service",
+    "description": "Darview Micro-Service ",
+    "type": "Microservice scripts",
+    "homepage": "https://github.com/dv-microservice",
+    "license": "Open Source",
+    "keywords": [
+        "darvism",
+        "solutions",
+        "micro-service"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "support": {
+        "issues": "https://support.darvism.com"
+    },
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0.1",
+        "laminas/laminas-coding-standard": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DV\\MicroService\\": "src/"
+        }
+    },
+    "scripts": {
+
+    }
+}
