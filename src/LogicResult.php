@@ -5,8 +5,8 @@ use DV\Log\Reporter;
 use Exception ;
 use Psr\Http\Message\StreamInterface;
 use Throwable ;
-use Zend\Diactoros\Stream;
-use Zend\InputFilter\InputFilter;
+use Laminas\Diactoros\Stream;
+use Laminas\InputFilter\InputFilter;
 
 
 /**

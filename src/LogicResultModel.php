@@ -1,8 +1,8 @@
 <?php
 namespace DV\MicroService;
 
-use Zend\Http\Response;
-use Zend\Stdlib\ArrayObject;
+use Laminas\Http\Response;
+use Laminas\Stdlib\ArrayObject;
 
 
 class LogicResultModel extends ArrayObject

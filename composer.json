@@ -1,8 +1,8 @@
 {
-    "name": "DVMicroService",
-    "description": "Darvism Micro-Service ",
+    "name": "darviews/dv-microservice",
+    "description": "A general utitlity microservice scripts for miscellenous purpose",
     "type": "Microservice scripts",
-    "homepage": "https://github.com/dv-microservice",
+    "homepage": "https://github.com/darrenwilly/dv-microservice",
     "license": "Open Source",
     "keywords": [
         "darvism",
@@ -17,6 +17,7 @@
     },
     "require": {
         "php": "^7.2",
+        "darviews/dv-coore": "^3.0",
         "laminas/laminas-servicemanager": "^3.3",
         "laminas/laminas-expressive-swoole": "^2.2"
     },

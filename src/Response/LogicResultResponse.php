@@ -1,9 +1,9 @@
 <?php
 namespace DV\MicroService\Response;
 
-use Zend\Diactoros\Response;
+use Laminas\Diactoros\Response;
 use DV\MicroService\LogicResult ;
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\Stream;
 
 class LogicResultResponse extends Response
 {

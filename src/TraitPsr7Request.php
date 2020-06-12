@@ -2,8 +2,8 @@
 namespace DV\MicroService;
 
 use Psr\Http\Message\ServerRequestInterface;
-use Zend\Expressive\Router\RouteResult;
-use Zend\Stdlib\Parameters;
+use Laminas\Expressive\Router\RouteResult;
+use Laminas\Stdlib\Parameters;
 
 trait TraitPsr7Request
 {

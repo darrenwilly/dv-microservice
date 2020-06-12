@@ -3,11 +3,19 @@ declare(strict_types=1) ;
 
 namespace DV\MicroService;
 
+use DV\Model\BaseAbstract;
+
 trait TraitModel
 {
+    /**
+     * @var BaseAbstract
+     */
     protected $model ;
     protected $repositoryProvider ;
 
+    /**
+     * @return BaseAbstract
+     */
     public function getModel()
     {
         return $this->model ;

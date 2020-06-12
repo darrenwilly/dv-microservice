@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace DV\MicroService;
 
 use Psr\Container\ContainerInterface;
+#use Symfony\Component\DependencyInjection\ContainerInterface ;
 
 trait TraitContainer
 {
@@ -15,6 +16,7 @@ trait TraitContainer
     public function setContainer(ContainerInterface $container) : ?ContainerInterface
     {
         $this->container = $container ;
+        return $this->container;
     }
 
     /**

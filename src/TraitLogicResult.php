@@ -3,7 +3,7 @@ namespace DV\MicroService;
 
 use ArrayAccess ;
 use Traversable ;
-use Zend\Stdlib\ArrayUtils;
+use Laminas\Stdlib\ArrayUtils;
 use InvalidArgumentException ;
 
 trait TraitLogicResult
